@@ -1,0 +1,26 @@
+* { 
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: sans-serif;
+}
+.logo-img {
+    width: 12vw;
+}
+.header {
+    display: flex;
+    background-color: white;
+    align-items: center;
+    justify-content: space-between;
+    padding: 4vh 8vw;
+    border-bottom: 1px solid #dfd9d9;
+    position: fixed;
+    width: 100%;
+
+}
+.options {
+    display: flex;
+    gap: 2vw;
+}
