@@ -24,3 +24,45 @@ body{
     display: flex;
     gap: 2vw;
 }
+.options a {
+    text-decoration: none;
+    color: #666;
+
+}
+.main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #666;
+    height: 88vh;
+    gap: 4vh;
+}
+.main-text {
+    font-weight: bold;
+    font-size: 7vh;
+}
+.main img {
+    width: 56vw;
+    margin-top: 150px;
+}
+.main button {
+    border: none;
+    font-weight: bold;
+    background-color: #387ed1;
+    border-radius: 5px;
+    color: white;
+    padding: 15px 25px;
+    cursor: pointer;
+}
+.main button:hover {
+    background-color: #666;
+}
+.middle {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /*margin-left:100px;
+    margin-right:100px; */
+    padding: 4vh 8vw;
+}
